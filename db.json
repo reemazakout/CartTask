@@ -1,0 +1,85 @@
+{
+    "categories": [
+      {
+        "id": 1,
+        "name": "Men's Fashion",
+        "slug": "mens-fashion",
+        "image": "https://cdn.onpointfresh.com/wp-content/uploads/2024/05/23b87c5fed96f5ca616a94ab6fd743e9.jpg"
+      },
+      {
+        "id": 2,
+        "name": "Women's Fashion",
+        "slug": "womens-fashion",
+        "image": "https://www.andindia.com/dw/image/v2/BGCX_PRD/on/demandware.static/-/Sites-masterCatalog_ANDIndia/default/dw7c984b45/images/hires/SS22/AND-F24K97DRW69_GRY-PRT%20(1)%20copy.jpg?sw=400&sh=600&sm=fit"
+      },
+      {
+        "id": 3,
+        "name": "Kids' Fashion",
+        "slug": "kids-fashion",
+        "image": "https://contents.mediadecathlon.com/p2483442/k$f7722f397a13efea100a49f28f0e1d31/kids-unisex-cotton-t-shirt-500-beige.jpg?format=auto&quality=40&f=452x452"
+      }
+    ],
+    "products": [
+      {
+        "id": 1,
+        "name": "Men's Leather Jacket",
+        "category": "Men's Fashion",
+        "slug": "mens-leather-jacket",
+        "price": 120,
+        "image": "https://cdn.onpointfresh.com/wp-content/uploads/2024/05/23b87c5fed96f5ca616a94ab6fd743e9.jpg",
+        "description": "High-quality leather jacket for men.",
+        "stock": 10,
+        "sizes": ["S", "M", "L", "XL"],
+        "createdAt": "2023-09-01T10:20:30Z"
+      },
+      {
+        "id": 2,
+        "name": "Women's Summer Dress",
+        "category": "Women's Fashion",
+        "slug": "womens-summer-dress",
+        "price": 45,
+        "image": "https://www.andindia.com/dw/image/v2/BGCX_PRD/on/demandware.static/-/Sites-masterCatalog_ANDIndia/default/dw7c984b45/images/hires/SS22/AND-F24K97DRW69_GRY-PRT%20(1)%20copy.jpg?sw=400&sh=600&sm=fit",
+        "description": "Light and breezy summer dress.",
+        "stock": 25,
+        "sizes": ["XS", "S", "M", "L"],
+        "createdAt": "2023-08-15T15:00:00Z"
+      },
+      {
+        "id": 3,
+        "name": "Kids' Cartoon T-Shirt",
+        "category": "Kids' Fashion",
+        "slug": "kids-cartoon-tshirt",
+        "price": 20,
+        "image": "https://contents.mediadecathlon.com/p2483442/k$f7722f397a13efea100a49f28f0e1d31/kids-unisex-cotton-t-shirt-500-beige.jpg?format=auto&quality=40&f=452x452",
+        "description": "Fun and colorful cartoon t-shirt for kids.",
+        "stock": 30,
+        "sizes": ["S", "M", "L"],
+        "createdAt": "2023-07-20T12:00:00Z"
+      },
+      {
+        "id": 4,
+        "name": "Men's Casual Sneakers",
+        "category": "Men's Fashion",
+        "slug": "mens-casual-sneakers",
+        "price": 75,
+        "image": "https://perkclothing.com/cdn/shop/articles/ls_outside_1016_1200x1200_crop_center.jpg?v=1655826119",
+        "description": "Comfortable and stylish sneakers for everyday wear.",
+        "stock": 15,
+        "sizes": ["8", "9", "10", "11"],
+        "createdAt": "2023-09-10T11:45:00Z"
+      },
+      {
+        "id": 5,
+        "name": "Women's Handbag",
+        "category": "Women's Fashion",
+        "slug": "womens-handbag",
+        "price": 85,
+        "image": "https://cdn.shopify.com/s/files/1/0162/2116/files/Street_Style_Women_7.jpg?v=1489171049",
+        "description": "Elegant handbag with spacious compartments.",
+        "stock": 5,
+        "sizes": ["One Size"],
+        "createdAt": "2023-09-05T14:30:00Z"
+      }
+    ]
+  }
+  
