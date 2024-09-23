@@ -5,7 +5,6 @@ export default function CartItems({ item }) {
   const { name, image, price, quantity, id } = item;
   const cart = useSelector((state) => state.cartSlice.cart);
 
-  // Calculate total price for all items in the cart
   const totalPrice = cart.reduce(
     (acc, product) => acc + product.price * product.quantity,
     0

@@ -6,7 +6,7 @@ const CartPage = () => {
   const dispatch = useDispatch(); // Correct use of dispatch
   const cart = useSelector((state) => state.cartSlice.cart);
 
-  // Display a message when the cart is empty
+
   if (cart.length === 0) {
     return (
       <div className="text-3xl text-center font-bold p-48">Cart is empty!</div>
@@ -15,12 +15,12 @@ const CartPage = () => {
 
   return (
     <div>
-      {/* Display cart items */}
+  
       {cart.map((item) => (
         <CartItems key={item.id} item={item} />
       ))}
 
-      {/* Clear Cart button displayed at the bottom, not inside the map */}
+ 
       <div className="flex justify-end mt-4">
         <button
           onClick={() => dispatch(clearCart())}

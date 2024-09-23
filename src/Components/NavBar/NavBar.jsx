@@ -13,7 +13,7 @@ const NavBar = () => {
 
   const toggleMenu = () => setIsOpen(!isOpen);
 
-  // Close the menu when clicking outside
+  // Close the menu when i clicking outside
   const menuRef = useRef();
   useEffect(() => {
     const handleClickOutside = (event) => {

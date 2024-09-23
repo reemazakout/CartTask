@@ -17,9 +17,39 @@
         "name": "Kids' Fashion",
         "slug": "Kids' Fashion",
         "image": "https://contents.mediadecathlon.com/p2483442/k$f7722f397a13efea100a49f28f0e1d31/kids-unisex-cotton-t-shirt-500-beige.jpg?format=auto&quality=40&f=452x452"
+      },
+      {
+        "id": 4,
+        "name": "Electronics",
+        "slug": "Electronics",
+        "image": "https://www.retailmba.com/wp-content/uploads/2023/11/wholesale-electronics.jpeg"
       }
     ],
     "products": [
+      {
+        "id": 7,
+        "name": "Electronics",
+        "category": "Electronics",
+        "slug": "Electronics",
+        "price": 85,
+        "image": "https://cdn.prod.website-files.com/61dfc899a471632619dca9dd/6585d9a5bb8d80d94b9b6ef3_consumer-electronics.png",
+        "description": "a set of devices for everyday use.",
+        "stock": 5,
+        
+        "createdAt": "2023-09-05T14:22:00Z"
+      },
+      {
+        "id": 8,
+        "name": "Electronics",
+        "category": "Electronics",
+        "slug": "Electronics",
+        "price": 85,
+        "image": "https://m.media-amazon.com/images/I/717tC4Mk9SL._AC_SL1000_.jpg",
+        "description": "a set of devices for everyday use.",
+        "stock": 5,
+        
+        "createdAt": "2023-09-05T14:22:00Z"
+      },
       {
         "id": 1,
         "name": "Men's Leather Jacket",
@@ -79,6 +109,18 @@
         "stock": 5,
         "sizes": ["One Size"],
         "createdAt": "2023-09-05T14:30:00Z"
+      },
+      {
+        "id": 6,
+        "name": "Electronics",
+        "category": "Electronics",
+        "slug": "Electronics",
+        "price": 85,
+        "image": "https://www.retailmba.com/wp-content/uploads/2023/11/wholesale-electronics.jpeg",
+        "description": "a set of devices for everyday use.",
+        "stock": 5,
+        
+        "createdAt": "2023-09-05T14:22:00Z"
       }
     ]
   }
