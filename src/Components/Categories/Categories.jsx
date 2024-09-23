@@ -12,6 +12,10 @@ export default function Categories() {
     dispatch(fetchCategories());
   }, [dispatch]);
 
+  useEffect(() => {
+    console.log("All categories:", categories);
+  }, [categories]);
+
   const handleCheckboxChange = (e) => {
     const categoryId = e.target.value;
     setSelectedCategories((prevSelected) =>
@@ -22,15 +26,15 @@ export default function Categories() {
   };
 
   useEffect(() => {
+    console.log("Selected categories:", selectedCategories);
     dispatch(filterByCategory(selectedCategories));
   }, [selectedCategories, dispatch]);
 
   return (
-    <div className="p-5">
-      <h2 className="text-lg font-bold">Categories</h2>
-      {categories && categories.length > 0 ? ( // Check if categories exist
+    <div className="pb-4 flex gap-5 text-center font-medium  text-md justify-center items-center">
+      {categories && categories.length > 0 ? (
         categories.map((category) => (
-          <div key={category._id}>
+          <div key={category._id} className="flex items-center gap-2">
             <label>
               <input
                 type="checkbox"
@@ -42,7 +46,7 @@ export default function Categories() {
           </div>
         ))
       ) : (
-        <p>No categories available.</p> // Handle the case where no categories are fetched yet
+        <p>No categories available.</p>
       )}
     </div>
   );

@@ -3,19 +3,19 @@
       {
         "id": 1,
         "name": "Men's Fashion",
-        "slug": "mens-fashion",
+        "slug": "Men's Fashion",
         "image": "https://cdn.onpointfresh.com/wp-content/uploads/2024/05/23b87c5fed96f5ca616a94ab6fd743e9.jpg"
       },
       {
         "id": 2,
         "name": "Women's Fashion",
-        "slug": "womens-fashion",
+        "slug": "Women's Fashion",
         "image": "https://www.andindia.com/dw/image/v2/BGCX_PRD/on/demandware.static/-/Sites-masterCatalog_ANDIndia/default/dw7c984b45/images/hires/SS22/AND-F24K97DRW69_GRY-PRT%20(1)%20copy.jpg?sw=400&sh=600&sm=fit"
       },
       {
         "id": 3,
         "name": "Kids' Fashion",
-        "slug": "kids-fashion",
+        "slug": "Kids' Fashion",
         "image": "https://contents.mediadecathlon.com/p2483442/k$f7722f397a13efea100a49f28f0e1d31/kids-unisex-cotton-t-shirt-500-beige.jpg?format=auto&quality=40&f=452x452"
       }
     ],
@@ -24,7 +24,7 @@
         "id": 1,
         "name": "Men's Leather Jacket",
         "category": "Men's Fashion",
-        "slug": "mens-leather-jacket",
+        "slug": "Men's Fashion",
         "price": 120,
         "image": "https://cdn.onpointfresh.com/wp-content/uploads/2024/05/23b87c5fed96f5ca616a94ab6fd743e9.jpg",
         "description": "High-quality leather jacket for men.",
@@ -34,9 +34,9 @@
       },
       {
         "id": 2,
-        "name": "Women's Summer Dress",
+        "name": "Women's Fashion",
         "category": "Women's Fashion",
-        "slug": "womens-summer-dress",
+        "slug": "Women's Fashion",
         "price": 45,
         "image": "https://www.andindia.com/dw/image/v2/BGCX_PRD/on/demandware.static/-/Sites-masterCatalog_ANDIndia/default/dw7c984b45/images/hires/SS22/AND-F24K97DRW69_GRY-PRT%20(1)%20copy.jpg?sw=400&sh=600&sm=fit",
         "description": "Light and breezy summer dress.",
@@ -48,7 +48,7 @@
         "id": 3,
         "name": "Kids' Cartoon T-Shirt",
         "category": "Kids' Fashion",
-        "slug": "kids-cartoon-tshirt",
+        "slug": "Kids' Fashion",
         "price": 20,
         "image": "https://contents.mediadecathlon.com/p2483442/k$f7722f397a13efea100a49f28f0e1d31/kids-unisex-cotton-t-shirt-500-beige.jpg?format=auto&quality=40&f=452x452",
         "description": "Fun and colorful cartoon t-shirt for kids.",
@@ -60,7 +60,7 @@
         "id": 4,
         "name": "Men's Casual Sneakers",
         "category": "Men's Fashion",
-        "slug": "mens-casual-sneakers",
+        "slug": "Men's Fashion",
         "price": 75,
         "image": "https://perkclothing.com/cdn/shop/articles/ls_outside_1016_1200x1200_crop_center.jpg?v=1655826119",
         "description": "Comfortable and stylish sneakers for everyday wear.",
@@ -72,7 +72,7 @@
         "id": 5,
         "name": "Women's Handbag",
         "category": "Women's Fashion",
-        "slug": "womens-handbag",
+        "slug": "Women's Fashion",
         "price": 85,
         "image": "https://cdn.shopify.com/s/files/1/0162/2116/files/Street_Style_Women_7.jpg?v=1489171049",
         "description": "Elegant handbag with spacious compartments.",
